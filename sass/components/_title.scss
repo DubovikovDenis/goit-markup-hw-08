@@ -1,0 +1,25 @@
+@media screen and (max-width: 1199px) {
+    .title {
+        margin-bottom: 30px;
+    }
+    
+    .team-title,
+    .clients-title {
+        @include font(28px, 700, 33px);
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .title {
+        margin-bottom: 50px;
+    }
+
+    .work-title,
+    .team-title,
+    .clients-title {
+        @include font(36px, 700, 42px);
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+}
